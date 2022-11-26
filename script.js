@@ -55,7 +55,7 @@ const generateName = () =>{
     showNameIntroText()
     setTimeout(()=> {
          const nameSpan = document.getElementById('full-name') 
-        nameSpan.innerText = `${getFirstName()} ${getMiddleName()} ${getLastName()}`
+        nameSpan.innerText = `🇧🇪 ${getFirstName()} ${getMiddleName()} ${getLastName()} 🇧🇪`
     },
     1000)
    
