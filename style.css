@@ -3,16 +3,25 @@
 } */
 
 main {
-    max-width: 500px;
-    margin: auto;
-    background-color: grey;
-
-    background: url('https://upload.wikimedia.org/wikipedia/commons/2/2b/Flag_of_Flanders.svg') no-repeat center fixed;
+  background-color: grey;
+  z-index: 0;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  opacity: 80%;
 }
 
 html {
-    background: url(images/paolo-candelo-no1nIXWTekU-unsplash.jpg) no-repeat center fixed; 
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-    color:lightgray
+  background: url(images/paolo-candelo-no1nIXWTekU-unsplash.jpg) no-repeat
+    center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  margin: auto;
+}
+
+.footer {
+  flex-shrink: 0;
+
+  background-color: white;
 }
