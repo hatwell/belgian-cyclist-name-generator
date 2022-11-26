@@ -24,7 +24,8 @@ const middleNames = [
     'Von',
     'Von der',
     'Van der',
-    'De'
+    'De',
+    ''
 ]
 
 const lastNames = [
@@ -37,7 +38,10 @@ const lastNames = [
 'Claes',
 'Goossens',
 'Wouters',
-'Smet'
+'Smet',
+'Aert',
+'Poel',
+'Peetersen'
 ]
 
 const getFirstName = () =>  firstNames.random() 
