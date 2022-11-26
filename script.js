@@ -41,7 +41,12 @@ const lastNames = [
 'Smet',
 'Aert',
 'Poel',
-'Peetersen'
+'Peetersen',
+'Poppels',
+'Vlaeminck',
+'Boom',
+'Jongels',
+'Lubberding'
 ]
 
 const getFirstName = () =>  firstNames.random() 
