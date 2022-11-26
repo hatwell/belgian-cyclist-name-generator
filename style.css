@@ -41,3 +41,14 @@ html {
   margin-top: 32px;
   background-color: white;
 }
+.button {
+  border-radius: 8px;
+  background-color: yellow;
+  transition-duration: 0.4s;
+
+}
+.button:hover {
+  background-color: dodgerblue; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
