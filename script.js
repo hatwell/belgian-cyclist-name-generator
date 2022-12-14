@@ -21,8 +21,6 @@ const firstNames = [
 
 const middleNames = [
     'Van',
-    'Von',
-    'Von der',
     'Van der',
     'De',
     ''
@@ -64,7 +62,7 @@ const generateName = () =>{
     showNameIntroText()
     setTimeout(()=> {
          const nameSpan = document.getElementById('full-name') 
-        nameSpan.innerText = `🇧🇪 ${getFirstName()} ${getMiddleName()} ${getLastName()} 🇧🇪`
+        nameSpan.innerText = `🇧🇪 ${getFirstName()} ${getMiddleName() ? " " : "" }${getLastName()} 🇧🇪`
     },
     1000)
    
